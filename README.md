@@ -20,12 +20,14 @@ JavaScript을 통해 자료 구조와 알고리즘 공부를 합니다.
 ## 계획 (Plan)
 * 테스트 코드를 통해서 하나씩 증명 해 나갑니다.
 
-## 버젼 관리 (Version)
+## 이력 관리 (Log)
 ### v2022-06-03
 * README 작성, HashTable, Jest 설정
+
+### v2022-06-29
+* 
 
 
 ##  Reference
 * [mozilla](https://developer.mozilla.org/ko/docs/Web/JavaScript)
-* [JavaScript 알고리즘 & 자료구조 마스터클래스
-  ](https://www.udemy.com/share/105zfq3@MGeQ_6JUaggtZJdZuUk1KWf-gZnnweq5LQoOtqe4UK9mRFZpOBD2asw7VdUubD8p4Q==/)
+* [JavaScript 알고리즘 & 자료구조 마스터클래스](https://www.udemy.com/share/105zfq3@MGeQ_6JUaggtZJdZuUk1KWf-gZnnweq5LQoOtqe4UK9mRFZpOBD2asw7VdUubD8p4Q==/)
