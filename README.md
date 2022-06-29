@@ -20,7 +20,7 @@ JavaScript을 통해 자료 구조와 알고리즘 공부를 합니다.
 ## 계획 (Plan)
 * 테스트 코드를 통해서 하나씩 증명 해 나갑니다.
 
-## 마일스톤 (Milestones)
+## 버젼 관리 (Version)
 ### v2022-06-03
 * README 작성, HashTable, Jest 설정
 
