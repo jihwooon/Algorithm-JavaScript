@@ -1,4 +1,4 @@
-const hash = require('./basic_hash');
+`onst hash = require('./basic_hash');
 
 test('pink, 10', () => {
     expect(hash('pink', 10)).toBe(0);

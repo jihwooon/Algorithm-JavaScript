@@ -15,3 +15,7 @@ test('hi, 13', () => {
 test('goodbye, 13', () => {
     expect(hash('goodbye', 13)).toBe(9);
 });
+
+test('h2, 13', () => {
+   expect(hash('goodman', 14)).toBe(13)
+});
