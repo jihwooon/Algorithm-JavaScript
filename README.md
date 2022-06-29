@@ -25,9 +25,11 @@ JavaScript을 통해 자료 구조와 알고리즘 공부를 합니다.
 * README 작성, HashTable, Jest 설정
 
 ### v2022-06-29
+* `HashTable quick look-up.md` 내용 추가
 * 
 
 
 ##  Reference
 * [mozilla](https://developer.mozilla.org/ko/docs/Web/JavaScript)
 * [JavaScript 알고리즘 & 자료구조 마스터클래스](https://www.udemy.com/share/105zfq3@MGeQ_6JUaggtZJdZuUk1KWf-gZnnweq5LQoOtqe4UK9mRFZpOBD2asw7VdUubD8p4Q==/)
+* [누구나 자료구조와 알고리즘](http://aladin.kr/p/O4nDE)
