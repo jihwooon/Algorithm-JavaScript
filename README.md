@@ -26,7 +26,9 @@ JavaScript을 통해 자료 구조와 알고리즘 공부를 합니다.
 
 ### v2022-06-29
 * `HashTable quick look-up.md` 내용 추가
-* 
+
+### v2022-07-10
+* `스프레드 및 나머지 연산자를 연습하라` 내용 추가
 
 
 ##  Reference
