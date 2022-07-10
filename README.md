@@ -21,14 +21,9 @@ JavaScript을 통해 자료 구조와 알고리즘 공부를 합니다.
 * 테스트 코드를 통해서 하나씩 증명 해 나갑니다.
 
 ## 이력 관리 (Log)
-### v2022-06-03
-* README 작성, HashTable, Jest 설정
-
-### v2022-06-29
-* `HashTable quick look-up.md` 내용 추가
-
-### v2022-07-10
-* `스프레드 및 나머지 연산자를 연습하라` 내용 추가
+2022-06-03 : README 작성, HashTable, Jest 설정  
+2022-06-29 : `HashTable quick look-up.md` 내용 추가  
+2022-07-10 : `스프레드 및 나머지 연산자를 연습하라` 내용 추가
 
 
 ##  Reference
