@@ -5,6 +5,7 @@
 ## 재귀 함수의 두 가지 기본 요소
 
 1. 라인을 끝내는 종료 조건
+
 ```javascript
 function countDownMinus(num) {
   if (num < -0) {
@@ -14,7 +15,7 @@ function countDownMinus(num) {
 
   console.log(num);
   num--;
-  countDown(num);
+  countDownTest(num);
 }
 
 console.log("countDownMinus = " + countDownMinus(5));
@@ -22,13 +23,13 @@ console.log("countDownMinus = " + countDownMinus(5));
 ```
 
 ```javascript
-function countDown(num) {
+function countDownTest(num) {
   for (let i = num; i > 0; i--) {
     console.log(i);
   }
 }
 
-console.log("countDown = " + countDown(5));
+console.log("countDownTest = " + countDownTest(5));
 ```
 
 2. 다른 입력값
