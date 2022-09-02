@@ -7,11 +7,6 @@
  
 </details>
 
-<details>
-<summary>Summery</summary>
-> 
-</details>
-
 ## 목차 
 * 트리
 * 이진 탐색 트리
