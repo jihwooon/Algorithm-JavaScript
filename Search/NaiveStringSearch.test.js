@@ -14,12 +14,25 @@ function naiveStringSearch(long, short) {
   for (let i = 0; i < long.length; i++) {
     for (let j = 0; j < short.length; j++) {
       if (long[i + j] !== short[j]) break;
+      console.log(short[j]);
       if (j === short.length - 1) count++;
+      // console.log(j, short.length - 1);
     }
   }
   return count;
 }
 
+function naiveStringSearch1(long) {
+  let count = "";
+
+  if(long.length == 0) {
+    return long;
+  }
+
+  return naiveStringSearch1(long.substring(1));
+}
+
 test('Naive String Search', () => {
-  expect(naiveStringSearch("lorie loled", "lo")).toEqual(2);
+  // expect(naiveStringSearch("loled", "lol")).toEqual(1);
+  expect(naiveStringSearch1("loled")).toEqual(0);
 })
