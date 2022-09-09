@@ -45,4 +45,3 @@ stack.pop();
 stack.push(230);
 
 console.log("stack : " + JSON.stringify(stack))
-
