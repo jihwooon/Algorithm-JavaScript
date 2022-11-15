@@ -1,11 +1,10 @@
 {
-  "name": "bigo",
+  "name": "functions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "countDown.test.js",
   "scripts": {
-    "start": "node Add.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
