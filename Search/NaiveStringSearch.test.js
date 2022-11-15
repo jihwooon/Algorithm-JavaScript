@@ -34,5 +34,5 @@ function naiveStringSearch1(long) {
 
 test('Naive String Search', () => {
   // expect(naiveStringSearch("loled", "lol")).toEqual(1);
-  expect(naiveStringSearch1("loled")).toEqual(0);
+  expect(naiveStringSearch1("loled")).toEqual("");
 })
