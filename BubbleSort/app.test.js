@@ -14,8 +14,8 @@ function bubblesSort(arr) {
 }
 
 
-describe('numberCompare은', () => {
-    it('테스트', () => {
+describe('서로 인접한 두 원소의 대소를 비교하고, 조건이 맞지 않다면', () => {
+    it('자리를 교환하며 정렬한다', () => {
       expect(bubblesSort([37,45,29,8])).toStrictEqual([8,29,37,45]);
     });
   });
