@@ -23,6 +23,24 @@ class SinglyLinkedList {
         this.length++;
         return this;
     }
+    
+    pop() {
+        if(!this.head) return undefined;
+        let current = this.head;
+        let newTail = current;
+        while(current.next) {
+            newTail = current;
+            current = current.next;
+        }
+        this.tail = newTail;
+        this.tail.next = null;
+        this.length--;
+        if(this.length === 0) {
+            this.head == null;
+            this.tail == null;
+        }
+        return current;
+    }
 }
 
 const list = new SinglyLinkedList();
@@ -30,16 +48,10 @@ console.log(list.push('Hello'));
 console.log(list.push('My'));
 console.log(list.push('Name'));
 console.log(list.push('is'));
+console.log(list.pop());
+console.log(list.pop());
+console.log(list.pop());
+console.log(list.pop());
+console.log(list);
 
-// const first = new Node('hi');
-// first.next = new Node('there');
-// first.next.next = new Node('how');
-// first.next.next.next = new Node('are');
-// first.next.next.next.next = new Node('you');
 
-// describe('SinglyLinkedList 클래스는',() => {
-//     const list = new SinglyLinkedList();
-//     it('push 메서드에 ', () => {
-//     expect(list.push('Hello')).toBe({"head": {"next": null, "val": "Hello"}, "length": 1, "tail": {"next": null, "val": "Hello"}});
-//    }); 
-// });
