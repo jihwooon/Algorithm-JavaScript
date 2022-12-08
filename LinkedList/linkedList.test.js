@@ -65,11 +65,23 @@ class SinglyLinkedList {
         this.length++;
         return this;
     }
+
+    get(index) {
+        if (index < 0 || index >= this.length) return null;
+        let counter = 0;
+        let current = this.head;
+        while(counter !== index) {
+            current = current.next;
+            counter++;
+        }
+        return current;
+    }
 }
 
-// const list = new SinglyLinkedList();
-// console.log(list.push('Hello'));
-// console.log(list.push('My'));
+const list = new SinglyLinkedList();
+console.log(list.push('Hello'));
+console.log(list.push('My'));
+console.log(list.get(0));
 // // console.log(list.push('Name'));
 // // console.log(list.push('is'));
 // // console.log(list.pop());
