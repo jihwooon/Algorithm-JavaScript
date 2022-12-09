@@ -76,12 +76,23 @@ class SinglyLinkedList {
         }
         return current;
     }
+
+    set(index, value) {
+        const foundNode = this.get(index);
+        if(foundNode) {
+            foundNode.value = value;
+            return true;
+        }
+        return false;
+    }
 }
 
 const list = new SinglyLinkedList();
 console.log(list.push('Hello'));
 console.log(list.push('My'));
 console.log(list.get(0));
+console.log(list.set(1,'Change'));
+console.log(list);
 // // console.log(list.push('Name'));
 // // console.log(list.push('is'));
 // // console.log(list.pop());
