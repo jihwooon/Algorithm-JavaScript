@@ -85,6 +85,18 @@ class SinglyLinkedList {
         }
         return false;
     }
+
+    insert(index, value) {
+        if(index < 0 || index > this.length) return false;
+        if(index === this.length) return this.push(value);
+        if(index === 0) return this.unshift(value);
+        let newNode = new Node(value);
+        let prev = this.get(index - 1);
+        prev.next = newNode;
+        newNode.next = temp;
+        this.length++;
+        return true;
+    }
 }
 
 const list = new SinglyLinkedList();
@@ -93,6 +105,7 @@ console.log(list.push('My'));
 console.log(list.get(0));
 console.log(list.set(1,'Change'));
 console.log(list);
+console.log(list.insert(0,'first'));
 // // console.log(list.push('Name'));
 // // console.log(list.push('is'));
 // // console.log(list.pop());
