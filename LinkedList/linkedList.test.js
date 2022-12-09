@@ -1,6 +1,6 @@
 class Node {
-    constructor(val) {
-        this.val = val;
+    constructor(value) {
+        this.value = value;
         this.next = null;
     }
 }
@@ -11,8 +11,9 @@ class SinglyLinkedList {
         this.tail = null;
         this.length = 0;
     }
-    push(val) {
-        let newNode = new Node(val);
+
+    push(value) {
+        let newNode = new Node(value);
         if (!this.head) {
             this.head = newNode;
             this.tail = this.head;
@@ -23,23 +24,125 @@ class SinglyLinkedList {
         this.length++;
         return this;
     }
+    
+    pop() {
+        if(!this.head) return undefined;
+        let current = this.head;
+        let newTail = current;
+        while(current.next) {
+            newTail = current;
+            current = current.next;
+        }
+        this.tail = newTail;
+        this.tail.next = null;
+        this.length--;
+        if(this.length === 0) {
+            this.head == null;
+            this.tail == null;
+        }
+        return current;
+    }
+
+    shift() {
+        if(!this.head) return undefined;
+        let currentHead = this.head;
+        this.head = currentHead.next;
+        this.length--;
+        if(this.length === 0) {
+            this.tail == null;
+        }
+        return currentHead;
+    }
+
+    unshift(value) {
+        let newNode = new Node(value);
+        if(!this.head) {
+            this.head = newNode;
+            this.tail = this.head;
+        }
+        newNode.next = this.head;
+        this.head = newNode;
+        this.length++;
+        return this;
+    }
+
+    get(index) {
+        if (index < 0 || index >= this.length) return null;
+        let counter = 0;
+        let current = this.head;
+        while(counter !== index) {
+            current = current.next;
+            counter++;
+        }
+        return current;
+    }
+
+    set(index, value) {
+        const foundNode = this.get(index);
+        if(foundNode) {
+            foundNode.value = value;
+            return true;
+        }
+        return false;
+    }
+
+    insert(index, value) {
+        if(index < 0 || index > this.length) return false;
+        if(index === this.length) return this.push(value);
+        if(index === 0) return this.unshift(value);
+        let newNode = new Node(value);
+        let prev = this.get(index - 1);
+        prev.next = newNode;
+        newNode.next = temp;
+        this.length++;
+        return true;
+    }
+
+    remove(index) {
+        if(index < 0 || index >= this.length) return undefined;
+        if(index === 0) return this.shift();
+        if(index === this.length - 1) return history.pop();
+        let perviousNode = this.get(index - 1);
+        let removed = perviousNode.next;
+        perviousNode.next = removed.next;
+
+        return removed;
+    }
+
+    reverse() {
+        let node = this.head;
+        this.head = this.tail;
+        this.tail = node;
+        let next;
+        let prev = null;
+        for(let i = 0; i < this.length; i++) {
+            next = node.next;
+            node.next = prev;
+            prev = node;
+            node = next;
+        }
+        return this;
+    }
 }
 
 const list = new SinglyLinkedList();
-console.log(list.push('Hello'));
-console.log(list.push('My'));
-console.log(list.push('Name'));
-console.log(list.push('is'));
+list.push(1);
+list.push(2);
+console.log(list);
+list.reverse;
+console.log(list);
+// // console.log(list.push('Name'));
+// // console.log(list.push('is'));
+// // console.log(list.pop());
+// // console.log(list.shift());
+// // console.log(list.unshift('is'));
+// // console.log(list);
 
-// const first = new Node('hi');
-// first.next = new Node('there');
-// first.next.next = new Node('how');
-// first.next.next.next = new Node('are');
-// first.next.next.next.next = new Node('you');
+// const newLocal = new Node("Hi");
+// const newLocal1 = new Node("Hello");
+// const newLocal2 = new Node("My");
+// // console.log(newLocal.next);
+// newLocal.next = newLocal1;
+// newLocal.next.next = newLocal2;
 
-// describe('SinglyLinkedList 클래스는',() => {
-//     const list = new SinglyLinkedList();
-//     it('push 메서드에 ', () => {
-//     expect(list.push('Hello')).toBe({"head": {"next": null, "val": "Hello"}, "length": 1, "tail": {"next": null, "val": "Hello"}});
-//    }); 
-// });
+// // console.log(newLocal);
