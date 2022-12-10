@@ -26,7 +26,12 @@
 2022-12-10 : `LinkedList` 내용 추가
 
 
+
 ##  Reference
 * [mozilla](https://developer.mozilla.org/ko/docs/Web/JavaScript)
 * [JavaScript 알고리즘 & 자료구조 마스터클래스](https://www.udemy.com/share/105zfq3@MGeQ_6JUaggtZJdZuUk1KWf-gZnnweq5LQoOtqe4UK9mRFZpOBD2asw7VdUubD8p4Q==/)
 * [누구나 자료구조와 알고리즘](http://aladin.kr/p/O4nDE)
+
+![GitHub last commit][GitHub-last-commit]
+
+[GitHub-last-commit]: https://img.shields.io/github/last-commit/jihwooon/Algorithm-JavaScript?style=flat-square
