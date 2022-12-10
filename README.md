@@ -33,5 +33,9 @@
 * [누구나 자료구조와 알고리즘](http://aladin.kr/p/O4nDE)
 
 ![GitHub last commit][GitHub-last-commit]
+![node][node]
+![GitHub Pull Request][GitHub-pull-request]
 
 [GitHub-last-commit]: https://img.shields.io/github/last-commit/jihwooon/Algorithm-JavaScript?style=flat-square
+[node]: https://img.shields.io/node/v/linkedlist?color=blue
+[GitHub-pull-request]: https://img.shields.io/github/issues-pr/jihwooon/Algorithm-JavaScript?color=ff69b4
