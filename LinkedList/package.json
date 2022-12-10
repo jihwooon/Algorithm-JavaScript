@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^28.1.3"
+  },
+  "engines": {
+    "nodd": ">=1.0.0"
   }
 }
