@@ -1,8 +1,10 @@
-# JavaScript 자료구조와 알고리즘
+# DataStructures&Algorithm
 
+----
 ![GitHub last commit][GitHub-last-commit]
 ![node][node]
 ![GitHub Pull Request][GitHub-pull-request]
+[![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/Algorithm-JavaScript/wiki)
 
 ## 배경 (Background)
 자료 구조의 대한 기반 지식이 부족하고 평소에 알고리즘 동작 원리를 이해 할 기회가 별로 없는거 같아서
