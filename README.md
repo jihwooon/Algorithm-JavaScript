@@ -1,37 +1,35 @@
 # DataStructures&Algorithm
 
-----
 ![GitHub last commit][GitHub-last-commit]
 ![node][node]
 ![GitHub Pull Request][GitHub-pull-request]
 [![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/Algorithm-JavaScript/wiki)
 
-## 배경 (Background)
-자료 구조의 대한 기반 지식이 부족하고 평소에 알고리즘 동작 원리를 이해 할 기회가 별로 없는거 같아서
-정리 할 계기를 만들었습니다.
+이 저장소에는 많이 알려진 알고리즘 및 자료 구조의 Javascript 기반 예제를 담고 있습니다.
+각 알고리즘과 자료 구조에 대해 연관되어 있는 설명이 README에 작성되어 있습니다.
 
 ## 목표 (Goals)
 * 자료구조의 빅 오 (Big O)을 이해 할 수 있습니다.
-* 해시테이블, 퀵소트, 머지소트 등 자료 구조를 이해합니다.
-* Loop문 (=for문) 이 아닌 Recursion(=재귀함수)을 이해 할 수 있습니다.
+* 자료구조와 알고리즘을 암기가 아닌 이해 할 수 있습니다.
+* 해시테이블, 퀵소트, 머지소트 등 자료 구조에 대해 의사코드를 설명 할 수 있습니다.
 
+## 실행 방법
+각 폴더별로 `npm packages`를 설치를 합니다.
 
-## 목표가 아닌 것 (Non-goals)
-* 자료구조를 외우는 것이 목표가 아닙니다.
-* 내장 함수를 사용법을 익히는게 아닙니다.
+**npm packages**
+``` sh
+npm install
+```
 
-## 계획 (Plan)
-* 테스트 코드를 통해서 하나씩 증명 해 나갑니다.
+**Node 실행**
+``` sh
+npm start
+```
 
-## 이력 관리 (Log)
-2022-06-03 : README 작성, HashTable, Jest 설정  
-2022-06-29 : `HashTable quick look-up.md` 내용 추가  
-2022-07-10 : `스프레드 및 나머지 연산자를 연습하라` 내용 추가  
-2022-07-28 : `이진 검색 트리` 공부  
-2022-07-29 : `이진 검색 트리` 누구나 알고리즘과 자료구조 책 읽기  
-2022-12-10 : `LinkedList` 내용 추가
-
-
+**Jest 실행**
+``` sh
+npm test
+```
 
 ##  Reference
 * [mozilla](https://developer.mozilla.org/ko/docs/Web/JavaScript)
