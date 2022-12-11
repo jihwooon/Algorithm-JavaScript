@@ -41,7 +41,7 @@ npm test
 자세한 내용을 확인 하고 싶으시면, [Wiki Documentation](https://github.com/jihwooon/Algorithm-JavaScript/wiki)를 참조 하시면 됩니다.
 
 > - **DataStructures**
->   
+>   - [Linked List](https://github.com/jihwooon/Algorithm-JavaScript/wiki/LinkedList)
 >
 > - **Algorithm**
 >   - [Insert Sort](https://github.com/jihwooon/Algorithm-JavaScript/wiki/Insert-Sort)
