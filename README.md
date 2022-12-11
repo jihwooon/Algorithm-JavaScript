@@ -1,7 +1,6 @@
 # DataStructures&Algorithm
 
 ![GitHub last commit][GitHub-last-commit]
-![node][node]
 ![GitHub Pull Request][GitHub-pull-request]
 [![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/Algorithm-JavaScript/wiki)
 
@@ -36,8 +35,6 @@ npm test
 ## 내용(Content)
 [![Guide Documents](https://img.shields.io/badge/wiki-documentation-forestgreen)](https://github.com/jihwooon/Algorithm-JavaScript/wiki)
 
-여기 README 문서에는, 간략한 내용을 제공합니다. 
-
 자세한 내용을 확인 하고 싶으시면, [Wiki Documentation](https://github.com/jihwooon/Algorithm-JavaScript/wiki)를 참조 하시면 됩니다.
 
 > - **DataStructures**
@@ -50,5 +47,4 @@ npm test
 
 
 [GitHub-last-commit]: https://img.shields.io/github/last-commit/jihwooon/Algorithm-JavaScript?style=flat-square
-[node]: https://img.shields.io/node/v/linkedlist?color=blue
 [GitHub-pull-request]: https://img.shields.io/github/issues-pr/jihwooon/Algorithm-JavaScript?color=ff69b4
