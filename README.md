@@ -44,6 +44,7 @@ npm test
 >   - [Linked List](https://github.com/jihwooon/Algorithm-JavaScript/wiki/LinkedList)
 >
 > - **Algorithm**
+>   - [Bubbles Sort](https://github.com/jihwooon/Algorithm-JavaScript/wiki/Bubbles-Sort)
 >   - [Insert Sort](https://github.com/jihwooon/Algorithm-JavaScript/wiki/Insert-Sort)
 >   - [Selection Sort](https://github.com/jihwooon/Algorithm-JavaScript/wiki/Selection-Sort)
 
