@@ -36,6 +36,7 @@ npm test
 
 > - **DataStructures**
 >   - [Linked List](https://github.com/jihwooon/Algorithm-JavaScript/wiki/LinkedList)
+>   - [Stack](https://github.com/jihwooon/Algorithm-JavaScript/wiki/Stacks)
 >
 > - **Algorithm**
 >   - [Bubbles Sort](https://github.com/jihwooon/Algorithm-JavaScript/wiki/Bubbles-Sort)
