@@ -12,9 +12,9 @@ class QueueList {
     this.size = 0;
   }
 
-  enqueue(val) {
-    let newNode = new Node(val);
-    if (!this.first) {
+  enqueue(value) {
+    const newNode = new Node(value);
+    if(!this.first) {
       this.first = newNode;
       this.last = newNode;
     } else {
@@ -27,24 +27,13 @@ class QueueList {
   dequeue() {
     if(!this.first) return null;
 
-    let temp = this.first;
-
-    if(this.first == this.last) {
+    const temp = this.first;
+    if(this.first === this.last) {
       this.last = null;
     }
     this.first = this.first.next;
     this.size--;
     return temp.value;
   }
+
 }
-
-let queueList = new QueueList();
-queueList.enqueue(10);
-queueList.enqueue(20);
-queueList.enqueue(30);
-
-console.log(queueList);
-
-queueList.dequeue();
-
-console.log(queueList);
